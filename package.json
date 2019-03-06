@@ -1,22 +1,25 @@
 {
-  "name": "mailchimp_newltter",
+  "name": "mailchimp_newletter",
   "version": "1.0.0",
-  "description": "Simple newsletter app mailchimp",
-  "main": "index.js",
-  "homepage": "https://mposh.github.io/signup",
+  "description": "Newsletter",
+  "main": "app.js",
   "scripts": {
     "start": "node app",
-    "dev": "nodemon app",
-    "deploy": "deploy -d public"
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mposh/Newsletter.git"
   },
   "author": "Oscar Mpoke",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mposh/Newsletter/issues"
+  },
+  "homepage": "https://github.com/mposh/Newsletter#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
   }
 }
