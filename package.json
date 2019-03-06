@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Simple newsletter app mailchimp",
   "main": "index.js",
+  "homepage": "https://mposh.github.io/signup",
   "scripts": {
     "start": "node app",
-    "dev": "nodemon app"
+    "dev": "nodemon app",
+    "deploy": "deploy -d public"
   },
   "author": "Oscar Mpoke",
   "license": "MIT",
